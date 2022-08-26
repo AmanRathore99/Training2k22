@@ -1,0 +1,141 @@
+/* So the HTML5 structural tags work in older browsers */
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/* the styles for the elements */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 87.5%;
+  width: 800px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid #800000;
+  background-color: #fffded;
+}
+
+/* the styles for the header */
+
+header {
+  border-bottom: 2px solid #800000;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-image: linear-gradient(
+    30deg,
+    #800000,
+    #fffded,
+    white,
+    #fffded,
+    #800000
+  );
+}
+
+header img {
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding: 1em bottom;
+}
+
+header h1 {
+  color: #800000;
+  padding: 0.5em top, 0.25 bottom;
+}
+header h2 {
+  font-style: italic;
+  padding: 0.25em bottom;
+}
+
+/* the styles for the section */
+section {
+  clear: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 525px;
+  float: right;
+}
+
+aside {
+  width: 215px;
+  float: right;
+  padding-left: 20px;
+}
+
+aside h1 {
+  font-size: 150%;
+  color: #800000;
+  padding: 0.5em top, 0.25 bottom;
+}
+
+aside h2 {
+  font-size: 120%;
+  padding: 0.25em bottom;
+}
+
+aside img {
+  padding-bottom: 1em;
+}
+
+section h1 {
+  font-size: 150%;
+  color: #800000;
+  padding: 0.5em top, 0.25 bottom;
+}
+
+section h2 {
+  font-size: 120%;
+  padding: 0.25em bottom;
+}
+
+/* #speakers {
+  border: 2px double #800000;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 2px 2px;
+} */
+
+ul {
+  padding: 1.5em bottom, 1.25em left;
+}
+
+li {
+  padding: 0.35em bottom;
+}
+
+footer {
+  border-top: 2px solid #800000;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  clear: both;
+}
+
+footer p {
+  text-align: center;
+  padding: 0.5em bottom;
+}
+
+.shadow {
+  text-shadow: -2px -2px 4px #800000;
+}
+
+article {
+  border-top: 2px solid #800000;
+  border-bottom: 2px solid #800000;
+}
+
+article img {
+  float: right;
+  border: 1px solid black;
+}
+article h1 {
+  color: black;
+}
+
+/* the styles for the footer */
