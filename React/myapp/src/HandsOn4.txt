@@ -1,0 +1,24 @@
+> const nums = [1, 2, 3, 4, 5];
+undefined
+> nums.map((num) => {console.log(num * num)});
+1
+4
+9
+16
+25
+
+> const names = ["alice", "bob", "charlie", "danielle"]
+undefined
+> names.map((names) => {console.log(names.charAt(0).toUpperCase() + names.slice(1))});
+Alice
+Bob
+Charlie
+Danielle
+
+> const pokemon = ["Bulbasaur", "Charmander",
+...  "Squirtle"];
+undefined
+> pokemon.map((poke)=>{console.log("<p>poke</p>")});
+<p>poke</p>
+<p>poke</p>
+<p>poke</p>

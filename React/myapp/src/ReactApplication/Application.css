@@ -1,0 +1,46 @@
+.App-logo {
+  width: 80px;
+}
+.nav {
+  display: flex;
+  background-color: lightslategrey;
+  padding: 15px;
+}
+.nav h1 {
+  color: #61dbfb;
+}
+.nav h2 {
+  margin-left: 60%;
+  color: whitesmoke;
+}
+body {
+  background-color: lightsteelblue;
+}
+section {
+  display: block;
+  clear: left;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 3em;
+}
+section h1 {
+  font-size: 250%;
+  color: whitesmoke;
+  padding: 0.5em top, 0.25 bottom;
+}
+.ulist {
+  line-height: 2.5em;
+  float: left;
+}
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
